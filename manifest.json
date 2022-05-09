@@ -1,0 +1,12 @@
+{
+	"manifest_version" :2,
+	"name": "Paugg",
+	"description": "Password Generator",
+	"version": "1.0.1",
+	"icons": {"130":"logo.png"},
+	"browser_action": {
+		"default_icon": "logo.png",
+		"default_popup": "index.html"
+	},
+	"permissions":["activeTab"]
+}

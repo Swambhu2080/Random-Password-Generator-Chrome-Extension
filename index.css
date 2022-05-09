@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+}
+
+p{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    padding-top: 10px;
+    color: #fff;
+}
+h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+body{
+    width: 500px;
+    
+    border: 6px solid greenyellow;
+}
+.container{
+    padding: 20px;
+    background-color: darkcyan;
+    text-align: center;
+}
+.result-password{
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    font-size: 18px;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    height: 30px;
+    width: 100%;
+}
+
+.result-password #result{
+    word-wrap: break word;
+    max-width: calc(100%-40px);
+}
+
+.result-password .btn{
+    font-size: 20px;
+    position: absolute;
+    right: 0%;
+    background-color: #338a57;
+    height: 35px;
+    width: 35px;
+    border: none;
+    color: #fff;
+}
+.btn-large{
+    display: block;
+    width: 100%;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    border: none;
+    color:#fff;
+    cursor: pointer;
+    font-size: 13px;
+    padding: 8px 12px;
+    background-color: #338a57;
+    border-radius: 20px;
+}
+
+.setting{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    padding: 10px;
+}
+.setting label{
+    letter-spacing: 2px;
+    word-spacing: 3px;   
+    color: #fff;
+}
+
+footer{
+    padding: 10px;
+    text-align: center;
+
+}
